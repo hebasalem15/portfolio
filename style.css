@@ -1,0 +1,150 @@
+*{font-family:Arial, Helvetica, sans-serif}
+body{background:linear-gradient(to right,rgba(228, 196, 224, 0.723),rgb(189, 125, 147)) ;
+    color: #000000;
+    padding: 1rem;
+}
+nav{background:linear-gradient(to right,rgba(228, 196, 224, 0.723),rgb(189, 125, 147)) ;
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+nav ul li a{
+    color: #4f2e40;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #000000;
+}
+
+#home{
+    margin-top: 3rem;
+    display: flex;
+    background-color: #efdcf1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+#home img{
+    width: 30%;
+    height: 15rem;
+    border-radius: 50%;
+}
+#about{
+    background-color: #efdcf1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+#skills {
+    background-color: #efdcf1;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.skill ul{list-style: none;}
+
+#projects{
+    background-color: #efdcf1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.header{text-align: center;
+color: #391a38;
+}
+
+
+
+
+.project{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.project img{
+    width: 8rem;
+}
+#certificates{
+    background-color: #efdcf1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+}
+.certificate{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+#certificate{
+    background-color: rgba(189, 125, 147, 0.541);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 20rem;
+}
+#certificate img{
+    width: 18rem;
+    border-radius: 0.5rem;
+
+}
+#contact form{
+    background-color: #efdcf1;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+#contact form input {
+    border-radius: 1rem;
+    border: none;
+    padding: 0.3rem;
+}
+#contact form select option {background-color:#47204679;}
+
+#contact form textarea{
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+#btn{
+    width: 20%;
+    background-color: #391a3879;
+    cursor: pointer;
+    width: 6rem;
+}
+#btn:hover{
+    background:none;
+    border: #391a3879 solid 1px ;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #efdcf1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+#social img{
+    width: 4rem;
+
+}
